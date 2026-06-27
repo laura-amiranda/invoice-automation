@@ -1,7 +1,5 @@
 # invoice-automation
 
-> Projeto desenvolvido como solução para o teste técnico de Estágio em Desenvolvimento da Queiroz Cavalcanti Advocacia (QCA).
-
 ## Sobre o projeto
 
 Este projeto tem como objetivo automatizar o processamento de faturas (Invoices) em formato PDF. A aplicação realiza a leitura de múltiplos arquivos, extrai as informações relevantes, valida os dados utilizando Pydantic, armazena as informações em um arquivo JSON e disponibiliza consultas analíticas utilizando Pandas.
