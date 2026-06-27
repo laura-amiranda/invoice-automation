@@ -1,6 +1,6 @@
 # invoice-automation
 
-Projeto desenvolvido como solução para um desafio técnico de desenvolvimento backend.
+Projeto desenvolvido como solução para um desafio técnico utilizando Python, com foco no processamento automatizado de faturas, validação de dados e consultas analíticas.
 
 ## Sobre o projeto
 
