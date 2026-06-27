@@ -1,5 +1,7 @@
 # invoice-automation
 
+Projeto desenvolvido como solução para um desafio técnico de desenvolvimento backend.
+
 ## Sobre o projeto
 
 Este projeto tem como objetivo automatizar o processamento de faturas (Invoices) em formato PDF. A aplicação realiza a leitura de múltiplos arquivos, extrai as informações relevantes, valida os dados utilizando Pydantic, armazena as informações em um arquivo JSON e disponibiliza consultas analíticas utilizando Pandas.
