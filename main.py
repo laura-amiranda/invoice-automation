@@ -33,17 +33,17 @@ def run_analytics():
 
     print("\n========== CONSULTAS ANALÍTICAS ==========\n")
 
-    print(f"Média das faturas: {analytics.average_invoice_value():.2f}")
+    print(f"Média do valor total das faturas: {analytics.average_invoice_value():.2f}")
 
-    print("\nProduto mais comprado:")
+    print("\nProduto com maior frequência de compra:")
     print(analytics.most_frequent_product())
 
-    print("\nValor total gasto por produto:")
+    print("\nValor total gasto por cada produto:")
 
     for product, value in analytics.total_spent_per_product().items():
         print(f"{product}: {value:.2f}")
 
-    print("\nProdutos e preços:")
+    print("\nProdutos e preços unitários:")
 
     print(analytics.products_and_prices())
 
@@ -53,7 +53,5 @@ if __name__ == "__main__":
     print("========== PROCESSANDO FATURAS ==========\n")
 
     process_invoices()
-
-    print("\n========== CONSULTAS ANALÍTICAS ==========\n")
 
     run_analytics()

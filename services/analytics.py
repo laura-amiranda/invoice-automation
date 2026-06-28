@@ -32,7 +32,7 @@ class Analytics:
         return sum(totals) / len(totals)
 
     def most_frequent_product(self):
-        """Retorna o produto mais comprado."""
+        """Retorna o produto com maior frequência de compra."""
 
         products = []
 
@@ -40,7 +40,7 @@ class Analytics:
             for item in items:
                 products.append(item["product_name"])
 
-        return pd.Series(products).value_counts().head(1)
+        return pd.Series(products).value_counts().index[0]
 
     def total_spent_per_product(self):
         """Retorna o valor total gasto por produto."""
