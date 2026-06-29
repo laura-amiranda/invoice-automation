@@ -39,7 +39,7 @@ Os arquivos PDF utilizados foram obtidos do dataset público **Company Documents
 .
 ├── data/
 │   ├── invoices/
-│   └── database.json (gerado automaticamente)
+│   └── database.json (gerado automaticamente ao executar o projeto)
 │
 ├── models/
 │   ├── invoice.py
